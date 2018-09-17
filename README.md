@@ -5,6 +5,7 @@ I am on branch sample
 Adding a line on master
 
 ## Adding a title for next commit
+```
 [//]: # (Merging parent in current branch)
 git checkout anothersample
 git fetch origin master
@@ -19,4 +20,4 @@ git checkout master
 git merge anothersample
 git status
 git push origin master
-
+```
